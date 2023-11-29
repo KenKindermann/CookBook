@@ -4,10 +4,24 @@
     border: none
 } */
 
-.row{
-    height: 100%;
+.row {
+  height: 100%;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img:hover {
+  transform: scale(1.03);
+}
+
+.card-body {
+  overflow: hidden;
 }
